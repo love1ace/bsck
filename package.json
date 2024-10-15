@@ -1,0 +1,43 @@
+{
+  "type": "module",
+  "name": "bsck",
+  "version": "1.0.0",
+  "description": "bsck is a tool that checks and removes \b and ^H from file names.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "love1ace",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/love1ace/bsck.git"
+  },
+  "keywords": [
+    "bsck",
+    "backspace",
+    "mac",
+    "ascii",
+    "front-end",
+    "back-end",
+    "eslint",
+    "husky",
+    "cli",
+    "love1ace"
+  ],
+  "bugs": {
+    "url": "https://github.com/love1ace/bsck/issues"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/love1ace/bsck#readme",
+  "bin": {
+    "bsck": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
