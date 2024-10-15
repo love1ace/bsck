@@ -113,6 +113,7 @@ async function checkAndFixFiles(files, fix = false) {
     if (invalidFiles > 0) {
       console.log(chalk.yellow('Paths of files with invalid characters:'));
       invalidFileList.forEach(f => console.log(chalk.red(escapeSpecialChars(f))));
+      process.exit(1);
     } else {
       console.log(chalk.green('No files with invalid characters found.'));
     }

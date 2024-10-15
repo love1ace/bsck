@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "bsck",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bsck is a tool that checks and removes \b and ^H from file names.",
   "main": "index.js",
   "license": "MIT",
