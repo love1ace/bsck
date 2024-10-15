@@ -67,7 +67,7 @@ async function checkAndFixFiles(files, fix = false) {
 
   console.log(chalk.cyan('\n🔄 Starting bsck - ') + 
     '\x1b]8;;https://github.com/love1ace\x07' +
-    chalk.cyan.underline('Developed by love1ace') +
+    chalk.cyan.underline('Developed by DONGYEONG KIM') +
     '\x1b]8;;\x07');
   console.log();
 
