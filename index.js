@@ -113,6 +113,10 @@ async function checkAndFixFiles(files, fix = false) {
     if (invalidFiles > 0) {
       console.log(chalk.yellow('Paths of files with invalid characters:'));
       invalidFileList.forEach(f => console.log(chalk.red(escapeSpecialChars(f))));
+      console.log();
+      console.log(chalk.cyan('Fix it with this command:'));
+      console.log(chalk.green('npx bsck --fix'));
+      console.log();
       process.exit(1);
     } else {
       console.log(chalk.green('No files with invalid characters found.'));
